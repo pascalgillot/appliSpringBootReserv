@@ -22,7 +22,7 @@ import com.m2i.tp.service.ServiceSpectacle;
 	@RestController //classe de WS REST avec spring MVC (cas particulier de @Component)
 	@RequestMapping(value="/rest/spectacle" , headers="Accept=application/json")
 	@CrossOrigin(origins = "*")//en mode dev //pour autoriser des appels ajax provenant
-	                          //d'autres origines (exemple entreprise amie , ...)
+	                          //d'autres origines (exemple entreprise amie , ...) *
 
 	public class ServiceRestCtrl {		
 		@Autowired
